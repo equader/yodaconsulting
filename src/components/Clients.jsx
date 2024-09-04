@@ -15,7 +15,7 @@ function Logos() {
       <section class="py-24  bg-beige">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mb-14 text-center">
-              <h4 class="text-xl text-gray-900 text-center font-medium">We've worked across the globe with banks and firms of all sizes</h4>
+              <h4 class="text-xl text-gray-900 font-bold text-center">Global reach, galactic expertise. Trusted by banks and firms across all sectors.</h4>
           </div>
           <div class="flex overflow-hidden space-x-16 group">
   <div class="flex space-x-16 animate-loop-scroll group-hover:paused">

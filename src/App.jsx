@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg'; 
-import './App.css';
-import Nav from './components/Nav'; 
-import Hero from './components/Hero';
-import Stats from './components/Stats'
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
-import Logos from './components/Clients';
-import CTA from './components/CTA';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+
 
 export default function App() {
   return (
-    <div>
-      <Nav />
-      <Hero/>
-      <Stats/>
-      <Services/>
-      <Logos/>
-      <Testimonials/>
-      <CTA/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
