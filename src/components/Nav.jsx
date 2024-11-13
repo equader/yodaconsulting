@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from '../images/YodaConsultingLogoWhite.svg';
 
 function Nav() {
@@ -12,10 +13,32 @@ function Nav() {
           <nav aria-label="Global" className="block">
             <ul className="flex items-center gap-6 text-sm">
               <li>
-                <a className="text-emerald transition text-lg font-bold hover:text-nice" href="#"> About </a>
+                <NavLink
+                  exact
+                  to="/"
+                  className="text-emerald transition text-lg font-bold hover:text-nice"
+                  activeClassName="underline"
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a className="text-emerald transition text-lg font-bold hover:text-nice" href="#"> Services </a>
+                <NavLink
+                  to="/about"
+                  className="text-emerald transition text-lg font-bold hover:text-nice"
+                  activeClassName="underline"
+                >
+                  Meet Anup
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services"
+                  className="text-emerald transition text-lg font-bold hover:text-nice"
+                  activeClassName="underline"
+                >
+                  Services
+                </NavLink>
               </li>
             </ul>
           </nav>

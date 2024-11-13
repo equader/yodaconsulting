@@ -9,7 +9,7 @@ function Stats() {
             <div class="w-full lg:w-1/4 border-b pb-10 lg:border-b-0 lg:pb-0 lg:border-r border-gray-100">
               <div
                 class="text-5xl text-nice mb-5 text-center ">
-                28+
+                30+
               </div>
               <span class="text-xl text-gray-900 text-center block ">years of banking domain experience
               </span>

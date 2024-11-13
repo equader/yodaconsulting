@@ -23,9 +23,10 @@ module.exports = {
         'hero-image': "url('./images/hero2.svg')",
       },
       colors: {
+        propsagreen: '#86EBA8',
         beige: '#FBF9F4',
         highlight: '#CBFBDA',
-        nice: '#00B67A',
+        nice: '#009473',
         emerald: '#00342B',
         hover: '#66cc66',
         burnham: {

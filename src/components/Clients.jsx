@@ -1,7 +1,6 @@
 import React from "react";
 import cba from '../images/cba.svg';
 import anz from '../images/anz.svg';
-import sbi from '../images/sbi.svg';
 import westpac from '../images/westpac.svg';
 import ing from '../images/ing.svg';
 import dxc from '../images/dxc.svg';
@@ -15,14 +14,13 @@ function Logos() {
       <section class="py-24  bg-beige">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mb-14 text-center">
-              <h4 class="text-xl text-gray-900 font-bold text-center">Global reach, galactic expertise. Trusted by banks and firms across all sectors.</h4>
+              <h4 class="text-xl text-emerald font-bold text-center">Global reach, galactic expertise. Trusted by banks and firms.</h4>
           </div>
           <div class="flex overflow-hidden space-x-16 group">
   <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
     <img loading="lazy" src={cba} class="max-w-32" alt="Commonwealth Bank" />
     <img loading="lazy" src={anz} class="max-w-32" alt="ANZ Bank" />
     <img loading="lazy" src={westpac} class="max-w-32" alt="Westpac Bank" />
-    <img loading="lazy" src={sbi} class="max-w-32" alt="State India Bank" />
     <img loading="lazy" src={ing} class="max-w-32" alt="ING Bank" />
     <img loading="lazy" src={dxc} class="max-w-32" alt="DXC" />
     <img loading="lazy" src={tcs} class="max-w-32" alt="TCS" />
@@ -34,7 +32,6 @@ function Logos() {
     <img loading="lazy" src={cba} class="max-w-32" alt="Commonwealth Bank" />
     <img loading="lazy" src={anz} class="max-w-32" alt="ANZ Bank" />
     <img loading="lazy" src={westpac} class="max-w-32" alt="Westpac Bank" />
-    <img loading="lazy" src={sbi} class="max-w-32" alt="State India Bank" />
     <img loading="lazy" src={ing} class="max-w-32" alt="ING Bank" />
     <img loading="lazy" src={dxc} class="max-w-32" alt="DXC" />
     <img loading="lazy" src={tcs} class="max-w-32" alt="TCS" />
