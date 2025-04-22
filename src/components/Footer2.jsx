@@ -80,7 +80,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div class="text-center sm:text-left">
+        {/*<div class="text-center sm:text-left">
           <p class="text-lg font-medium text-gray-900">Services</p>
 
           <ul class="mt-8 space-y-4 text-sm">
@@ -98,7 +98,7 @@ function Footer() {
               <a class="text-gray-700 transition hover:text-gray-700/75" href="#">Business Insights and Partnerships </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         
 

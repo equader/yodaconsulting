@@ -31,7 +31,7 @@ function Nav() {
                   Meet Anup
                 </NavLink>
               </li>
-              <li>
+              {/*<li>
                 <NavLink
                   to="/services"
                   className="text-emerald transition text-lg font-bold hover:text-nice"
@@ -39,7 +39,7 @@ function Nav() {
                 >
                   Services
                 </NavLink>
-              </li>
+              </li>*/}
             </ul>
           </nav>
         </div>

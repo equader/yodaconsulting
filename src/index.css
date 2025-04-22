@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
 
 @layer utilities {
     .paused {
@@ -9,4 +13,5 @@
     body {
       @apply font-inter font-medium ;
     }
+    
   }

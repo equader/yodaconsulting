@@ -62,5 +62,8 @@ module.exports = {
   plugins: [
     require('daisyui'),
     require('@tailwindcss/forms'),
+    require('tailwind-scroll-behavior'),
   ],
+
+  
 };
