@@ -1,40 +1,41 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from '../images/YodaConsultingLogoWhite.svg';
 
 function Footer() {
     return (
-<footer class="w-full bg-white">
-<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
-        <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-            <a href="/home"  class="flex justify-center lg:justify-start">
+<footer className="w-full bg-white">
+<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+        <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
+            <a href="/"  className="flex justify-center lg:justify-start">
             <img src={logo} alt="YodaConsultingLogo" />
             </a>
-            <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Banking and Digital Technology Jedi</p>
+            <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Banking and Digital Technology Jedi</p>
         </div>
 
-        <div class="lg:col-start-4 text-left ">
-            <h4 class="text-lg text-gray-900 font-medium mb-7">Company</h4>
-            <ul class="text-sm  transition-all duration-500">
-                <li class="mb-6"><a href="/home"  class="text-gray-600 hover:text-gray-900">Home</a></li>
-                <li class="mb-6"><a href="/about"  class=" text-gray-600 hover:text-gray-900">Meet Anup</a></li>
+        <div className="lg:col-start-4 text-left ">
+            <h4 className="text-lg text-gray-900 font-medium mb-7">Company</h4>
+            <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6"><a href = "/" className="text-gray-600 hover:text-gray-900">Home</a></li>
+                <li className="mb-6"><a href="/about"  className=" text-gray-600 hover:text-gray-900">Meet Anup</a></li>
             </ul>
         </div>
 
-        {/*<div class="lg:mx-auto text-left ">
-            <h4 class="text-lg text-gray-900 font-medium mb-7">Services</h4>
-            <ul class="text-sm  transition-all duration-500">
-                <li class="mb-6"><a href="javascript:;"  class="text-gray-600 hover:text-gray-900">Technology & Software Consulting</a></li>
-                <li class="mb-6"><a href="javascript:;"  class=" text-gray-600 hover:text-gray-900">Core Banking & Financial Solutions</a></li>
-                <li class="mb-6"><a href="javascript:;"  class=" text-gray-600 hover:text-gray-900">Business Insights and Partnerships </a></li>
+        {/*<div className="lg:mx-auto text-left ">
+            <h4 className="text-lg text-gray-900 font-medium mb-7">Services</h4>
+            <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6"><a href="javascript:;"  className="text-gray-600 hover:text-gray-900">Technology & Software Consulting</a></li>
+                <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900">Core Banking & Financial Solutions</a></li>
+                <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900">Business Insights and Partnerships </a></li>
             </ul>
         </div> */}
 
-        <div class="lg:col-start-5 text-left">
-            <h4 class="text-lg text-gray-900 font-medium mb-7">Contact Anup</h4>
-            <ul class="text-sm  transition-all duration-500">
-                <li class="mb-6"><a href="mailto:anup.mahimkar@yodaconsulting.com"  class="text-gray-600 hover:text-gray-900">anup.mahimkar@yodaconsulting.com</a></li>
-                <li class="mb-6"><a href="javascript:;"  class=" text-gray-600 hover:text-gray-900"><address class="-mt-0.5 flex-1 not-italic text-gray-700">
+        <div className="lg:col-start-5 text-left">
+            <h4 className="text-lg text-gray-900 font-medium mb-7">Contact Anup</h4>
+            <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6"><a href="mailto:anup.mahimkar@yodaconsulting.com"  className="text-gray-600 hover:text-gray-900">anup.mahimkar@yodaconsulting.com</a></li>
+                <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900"><address className="-mt-0.5 flex-1 not-italic text-gray-700">
                 Sydney, NSW, Australia
               </address></a></li>
             </ul>
@@ -44,7 +45,7 @@ function Footer() {
 
     <div class="py-7 border-t border-gray-200">
         <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-            <span class="text-sm text-gray-500 ">©<a href="#">Yoda Consulting</a> 2024, All rights reserved.</span>
+            <span class="text-sm text-gray-500 ">©<a href="#">Yoda Consulting</a> 2025, All rights reserved.</span>
             <div class="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
            {/* <a href="javascript:;" class="group w-9 h-9 rounded-full flex justify-center items-center text-white bg-propsagreen hover:bg-emerald hover:text-propsagreen">
   <svg class="w-5 h-5" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
